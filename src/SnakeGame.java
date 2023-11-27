@@ -145,6 +145,10 @@ public class SnakeGame extends PApplet {
     }
 
     // TODO: Determine actions when a key is pressed
+    // HINT: There is an enum for all special keyboard keys
+    // This is accessible in our current scope, so we don't
+    // Even have to use the '.' operator to access them.
+    // (Meaning don't compare 'keyCode' to 'Direction', it won't work!) 
     public void keyPressed() {
         // Uncomment this code!
         // switch (keyCode) {
