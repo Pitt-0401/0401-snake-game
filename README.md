@@ -37,7 +37,7 @@ Position position2 = new Position(2, 2);
 position.equals(position2); // = false
 ```
 
-`randomPosition()` generates a random position. This is useful for the optional challenges.
+`Position.randomPosition()` generates a random position. This is useful for the optional challenges.
 
 ### SnakeGame
 In `SnakeGame.java`, you neeed to implement the method that draws the snake's body:
@@ -118,7 +118,7 @@ Direction direction = Direction.UP;
 direction == Direction.DOWN; // = false
 ```
 
-The 'keyPressed()` method in `SnakeGame` contains commented code. Uncomment it and fix the switch statement.
+The `keyPressed()` method in `SnakeGame` contains commented code. Uncomment it and fix the switch statement.
 This should be a fairly easy task -- decide on the case and set the direction for each case. The rest is already implemented and should not need changing.
 
 
