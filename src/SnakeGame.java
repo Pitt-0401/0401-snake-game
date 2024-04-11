@@ -92,10 +92,10 @@ public class SnakeGame extends PApplet {
     // Check if the snake has eaten some food
     public void checkFoodCollision() {
         Food found = null;
-        for (Food f : foodList) {
-            if (snake.getHead().getPosition().equals(f.getPosition())) {
+        for (Food food : foodList) {
+            if (snake.getHead().getPosition().equals(food.getPosition())) {
                 snake.grow();
-                found = f;
+                found = food;
                 break;
             }
         }
